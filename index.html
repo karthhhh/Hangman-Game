@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Hangman</title>
+	<!-- Reset CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Media Queries -->
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+</head>
+<body>
+	<header>
+        <h1>Arrow Hangman</h1>
+	</header>
+	<div class="wrapper">
+		<div class="media-input"></div>
+		<div class="info">
+			<!-- Instructions -->
+			<h1 class="green">Press any key to get started!</h1>
+			<div class="blue">
+				<h1>Wins:</h1>
+				<h1 class="wins"></h1>
+			</div>
+			<div class="yellow">
+				<h1>Current Word: </h1>
+				<h1 class="positions"></h1>
+			</div>
+			<div class="brown">
+				<h1>Number of guesses remaining: </h1>
+				<h1 class="guesses"></h1>
+			</div>
+			<div class="pink">
+				<h1>Letters already guessed: </h1>
+				<h1 class="letters-guessed"></h1>
+			</div>
+			<h1 class="red"></h1>
+			<!-- Answer -->
+			<div class="answer">
+				<h1 class="response"></h1>
+				<div class="character"></div>
+				<h1 class="anykey"></h1>
+			</div>
+		</div>
+		<!-- Hangman -->
+		<div class="hangman"></div>
+	</div>
+	<!-- Custom JS -->
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>
